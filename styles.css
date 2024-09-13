@@ -1,0 +1,84 @@
+*{
+  padding: 0px;
+  margin: 0px;
+}
+
+body{
+  font-family: "Amazon Ember", Arial, sans-serif;
+}
+
+
+/*----------- HEADER ---------- */
+header{
+  height: 99px;
+  background-color: #0f1111;
+}
+
+/*----------- MAIN HEADER----------*/
+.main-header{
+  width: 100%;
+  height: 60px;
+  background-color: #0f1111;
+  display: flex;
+  align-items: baseline;
+}  
+
+.left-item{
+  
+
+}
+.middle-item{
+  
+}
+
+.right-item{
+  
+}
+
+#logo{
+  height: 50px;
+}
+
+.main-item{
+  height: 50;
+  display: inline-block;
+}
+
+/*----------- MAIN NAVBAR----------*/
+
+.main-navbar{
+  height: 39px;
+  display: flex;
+  flex-wrap: nowrap;
+  background-color: #232f3e;
+  padding: 0px, 0px, 0px, 15px;
+}
+
+.nav-item {
+  height: 28px;
+  font-size: 12px;
+  margin: 5px 0px 6px;
+  padding: 8px 12px;
+  display: inline-block;
+}
+
+a, .nav-item{
+  text-decoration: none;
+  color: #ffffff;
+}
+
+#nav-sprite{
+  font-size: 16px;
+}
+
+.store{
+  font-size: 14px;
+  align-self: flex-end;
+  position: absolute;
+  padding-right: 18px;
+  right: 0;
+}
+
+a:hover, .nav-item:hover{
+  color: rgb(9, 41, 180);
+}
